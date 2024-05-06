@@ -52,7 +52,7 @@ or
 jupyter notebook
 ```
 
-This will open a new tab in your browser with the Jupyter interface. You can navigate to the `notebooks` directory and open the notebooks from there.
+This will open a new tab in your browser with the Jupyter interface. Now you can open the `experiment.ipynb` where you will complete most of your tasks.
 
 ## Step 4: Start Solving the Tasks!
 
