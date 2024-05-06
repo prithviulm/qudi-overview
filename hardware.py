@@ -18,11 +18,6 @@ class Hardware(ABC):
     """
     This base class contains the minimum functionality required of all hardware
     devices.
-
-    ********************************************
-    *** DO NOT MODIFY ANYTHING IN THIS CLASS ***
-    ********************************************
-
     """
 
     @abstractmethod
