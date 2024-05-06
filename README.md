@@ -1,3 +1,7 @@
+[![Ruff](https://github.com/prithviulm/qudi-overview/actions/workflows/ruff.yml/badge.svg)](https://github.com/prithviulm/qudi-overview/actions/workflows/ruff.yml)
+[![Testing](https://github.com/prithviulm/qudi-overview/actions/workflows/test.yml/badge.svg)](https://github.com/prithviulm/qudi-overview/actions/workflows/test.yml)
+
+
 # Getting Started
 
 We assume you already have `git` installed on your machine. If not, you can download it [here](https://git-scm.com/downloads) or ask your friendly neighborhood developer for help.
