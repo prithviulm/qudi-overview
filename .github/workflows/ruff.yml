@@ -17,10 +17,10 @@ jobs:
         with:
           python-version: '3.10'
           cache: 'pip'
-     - name: Install Dependencies
-       uses: py-actions/py-dependency-install@v4
-       with:
-        path: 'requirements.txt'
+      - name: Install Dependencies
+        uses: py-actions/py-dependency-install@v4
+        with:
+          path: 'requirements.txt'
       - name: Lint with Ruff
         run: ruff --ignore=E722 --output-format=github check .
         continue-on-error: false
