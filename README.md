@@ -67,3 +67,7 @@ Lastly, there is the `test_hardware.py` file which currently does not exist in Q
 Remember to save the `.py` files after making changes (in PyCharm or whatever editor you're using). Then, you need to reload the modules in the Jupyter Notebook. You can do this by running the cell that literally says "Run this cell to reload...".
 
 If you have any questions, feel free to ask your friendly neighborhood developer for help.
+
+## Step 5: Submit Your Code as a Pull Request
+
+TODO.
