@@ -93,6 +93,10 @@ class APD(Hardware):
         """
 
         return self.__integration_time
+    
+    @property
+    def status(self) -> bool:
+        return self.__connected
 
     @integration_time.setter
     def integration_time(self, value: int | float) -> None:
@@ -153,7 +157,7 @@ class APD(Hardware):
             The number of counts detected by the APD over the integration time.
         """
 
-        if self.status() is False:
+        if self.status is False:
             raise ConnectionError("APD is not connected.")
 
         if integration_time is None:

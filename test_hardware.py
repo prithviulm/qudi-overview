@@ -8,7 +8,7 @@ def test_apd_connect() -> None:
 
     apd = hardware.APD()
     apd.connect()
-    assert apd.status() is True
+    assert apd.status is True
 
 
 def test_apd_integration_time() -> None:
@@ -17,8 +17,11 @@ def test_apd_integration_time() -> None:
     """
 
     # Your code here
+    apd = hardware.APD()
+    apd.integration_time = 5
+    assert apd.integration_time == 5
 
-    pass
+    # pass
 
 
 def test_your_function() -> None:
@@ -27,5 +30,10 @@ def test_your_function() -> None:
     """
 
     # Your code here
+    apd = hardware.APD()
+    apd.connect()
+    apd.integration_time = 1
+    counts = apd.acquire()
+    assert isinstance(counts, int) is True
 
-    pass
+    # pass
