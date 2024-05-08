@@ -113,6 +113,9 @@ class APD(Hardware):
 
         self.__integration_time = float(value)
 
+    def status(self) -> bool:
+        return self.__connected
+
     def connect(self) -> None:
         """
         Connects to the APD.
